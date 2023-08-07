@@ -13,14 +13,3 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO
 )
-
-
-'''
-if __name__=="__main__":
-    logging.info("Logging has started")
-    try:
-        a=1/0
-    except Exception as e:
-        logging.info('Dicision by zero') 
-        raise CustomException(e,sys)
-'''
